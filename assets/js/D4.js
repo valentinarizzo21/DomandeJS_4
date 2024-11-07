@@ -187,10 +187,10 @@ console.log(cutString(str4));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
+let numeriRandom = [];
 
 function giveMeRandom(n){
-    let numeriRandom = [];
+    
     for (let i = 0; i < n; i ++){
         numeriRandom.push(Math.floor(Math.random()*11));
     }
